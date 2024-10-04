@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "EXOQUEST",
+    "slug": "ExoQuest",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/imgs/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash01.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/imgs/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zawadbinsharif.ExoQuest"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a490279a-ee26-4f82-a9f8-36ee23ff5570"
+      }
+    }
+  }
+}
