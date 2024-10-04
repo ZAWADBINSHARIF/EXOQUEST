@@ -17,17 +17,18 @@ const imgs: imgType = {
     master2: require("@/assets/imgs/master2.png"),
     fuel: require("@/assets/imgs/fuel.png"),
     galacticKey: require("@/assets/imgs/galacticKey.png"),
+    exoplanet_8162023_640: require("@/assets/imgs/exoplanet-8162023_640.png"),
     rewardPoint: require("@/assets/imgs/rewardPoint.png"),
     menu_bg: require("@/assets/imgs/menu_bg.png"),
     statistics_bg: require("@/assets/imgs/statistics_bg.png"),
     statistics_overall: require("@/assets/imgs/statistics_overall.png"),
     level_01_bg_01: require("@/assets/imgs/level_01_bg_01.jpg"),
     level_01_bg_02: require("@/assets/imgs/level_01_bg_02.jpg"),
-    GamePlay: require("@/assets/imgs/GamePlay.png"),
+    Expedition_Earth_2: require("@/assets/imgs/Expedition_Earth_2.png"),
     GalacticFinder: require("@/assets/imgs/GalacticFinder.png"),
     GalacticGateWay: require("@/assets/imgs/GalacticGateWay.png"),
-    GalacticGenesis: require("@/assets/imgs/GalacticGenesis.png"),
-    Statistics: require("@/assets/imgs/Statistics.png"),
+    statistic: require("@/assets/imgs/statistic.png"),
+    galaxyIcon: require("@/assets/imgs/galaxy.png")
 };
 
 export default imgs;
