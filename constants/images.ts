@@ -19,6 +19,8 @@ const imgs: imgType = {
     galacticKey: require("@/assets/imgs/galacticKey.png"),
     rewardPoint: require("@/assets/imgs/rewardPoint.png"),
     menu_bg: require("@/assets/imgs/menu_bg.png"),
+    statistics_bg: require("@/assets/imgs/statistics_bg.png"),
+    statistics_overall: require("@/assets/imgs/statistics_overall.png"),
     level_01_bg_01: require("@/assets/imgs/level_01_bg_01.jpg"),
     level_01_bg_02: require("@/assets/imgs/level_01_bg_02.jpg"),
     GamePlay: require("@/assets/imgs/GamePlay.png"),

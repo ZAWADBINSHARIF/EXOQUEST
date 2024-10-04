@@ -11,13 +11,14 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-    SpicyRice: require('../assets/fonts/SpicyRice-Regular.ttf')
+    SpicyRice: require('../assets/fonts/SpicyRice-Regular.ttf'),
+    default: require('../assets/fonts/Intensa_Fuente.ttf')
   });
 
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
-      // router.push("/fuelRefillWarning");
+      router.push("/(menu)/(statistics)/kepler");
       // router.push("/(level)/(proxima_centauri_b)/quiz");
 
     }
