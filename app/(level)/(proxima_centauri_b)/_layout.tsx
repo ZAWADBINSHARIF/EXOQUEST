@@ -8,6 +8,7 @@ export default function layout() {
                 headerShown: false,
                 animation: 'none'
             }}
+            initialRouteName='index'
         >
             <Stack.Screen name='index' />
             <Stack.Screen name='dialogue_01' options={{ animation: 'fade_from_bottom' }} />

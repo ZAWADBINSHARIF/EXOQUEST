@@ -6,7 +6,7 @@ import { router } from 'expo-router';
 const HomeButton = () => {
     return (
         <TouchableOpacity className='absolute top-5 z-50 right-10'
-            onPress={() => router.push("/(menu)")}
+            onPress={() => router.push("/(menu)/menu")}
         >
             <FontAwesome name="home" size={32} color="white" />
         </TouchableOpacity>

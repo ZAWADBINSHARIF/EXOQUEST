@@ -113,7 +113,7 @@ const fastFact = () => {
                 <View>
                     <CustomButton
                         title='NEXT'
-                        onPress={() => username && selectedCharacter ? router.push("/(menu)") : router.push("/characterPick")}
+                        onPress={() => username && selectedCharacter ? router.push("/(menu)/menu") : router.push("/characterPick")}
                         rightIcon={<Entypo name="chevron-with-circle-right" size={24} color="black" />}
                     />
                 </View>

@@ -28,7 +28,10 @@ const imgs: imgType = {
     GalacticFinder: require("@/assets/imgs/GalacticFinder.png"),
     GalacticGateWay: require("@/assets/imgs/GalacticGateWay.png"),
     statistic: require("@/assets/imgs/statistic.png"),
-    galaxyIcon: require("@/assets/imgs/galaxy.png")
+    galaxyIcon: require("@/assets/imgs/galaxy.png"),
+    level_bg: require("@/assets/imgs/level_bg.png"),
+    P_Centauri: require("@/assets/imgs/P_Centauri.png"),
+    timeline_of_level: require("@/assets/imgs/timeline_of_level.png")
 };
 
 export default imgs;

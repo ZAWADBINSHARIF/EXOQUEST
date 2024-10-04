@@ -7,8 +7,9 @@ export default function layout() {
             screenOptions={{
                 'headerShown': false
             }}
+            initialRouteName='menu'
         >
-            <Stack.Screen name='index' />
+            <Stack.Screen name='menu' />
             <Stack.Screen name='(statistics)' />
         </Stack>
     );

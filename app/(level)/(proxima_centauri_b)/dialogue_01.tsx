@@ -139,7 +139,7 @@ const dialogue_01 = () => {
                     >
                         <TouchableOpacity
                             className='bg-red-600 px-4 py-2 rounded-lg shadow-lg shadow-slate-500 flex-row justify-center items-center'
-                            onPress={() => router.push("/(level)")}
+                            onPress={() => router.push("/(level)/map")}
                         >
                             <Text className='font-bold text-zinc-950 text-2xl text-center mx-2'>NO</Text>
                         </TouchableOpacity>
