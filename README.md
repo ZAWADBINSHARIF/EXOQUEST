@@ -1,3 +1,9 @@
+# App Prototype Link:
+[ExoQuest's Figma prototype: click here to explore](https://www.figma.com/proto/2TWYlFuRP2FfQS15xxpjfS/ExoQuest)
+
+
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
