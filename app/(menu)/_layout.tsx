@@ -11,6 +11,7 @@ export default function layout() {
         >
             <Stack.Screen name='menu' />
             <Stack.Screen name='(statistics)' />
+            <Stack.Screen name="(galactic_finder)" />
         </Stack>
     );
 }

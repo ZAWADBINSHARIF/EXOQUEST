@@ -30,7 +30,7 @@ const endMessage = () => {
                 <View>
                     <CustomButton
                         title='Understood'
-                        onPress={() => router.push("/(menu)")}
+                        onPress={() => router.push("/(menu)/menu")}
                     />
                 </View>
             </View>

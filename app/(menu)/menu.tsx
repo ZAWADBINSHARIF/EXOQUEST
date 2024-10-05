@@ -24,7 +24,7 @@ const index = () => {
 
                     <Pressable
                         className='absolute -bottom-24 -left-8'
-                        onPress={() => router.push("/(level)")}
+                        onPress={() => router.push("/(level)/map")}
                     >
                         <Image
                             source={imgs.Expedition_Earth_2}
@@ -42,7 +42,7 @@ const index = () => {
 
                     <Pressable
                         className='absolute -top-5 left-20'
-                        onPress={() => router.push("/(level)/(proxima_centauri_b)")}
+                        onPress={() => router.push("/(level)/map")}
                     >
                         <Image
                             source={imgs.GalacticFinder}

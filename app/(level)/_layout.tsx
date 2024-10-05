@@ -8,6 +8,7 @@ const layout = () => {
                 headerShown: false,
                 animation: 'none'
             }}
+            initialRouteName='map'
         >
             <Stack.Screen name='map' />
             <Stack.Screen name='(proxima_centauri_b)' />

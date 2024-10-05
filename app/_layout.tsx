@@ -18,7 +18,7 @@ export default function RootLayout() {
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
-      router.push("/(level)");
+      router.push("/(menu)/(galactic_finder)/quiz_intro");
       // router.push("/(level)/(proxima_centauri_b)/quiz");
 
     }

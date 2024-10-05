@@ -31,7 +31,13 @@ const imgs: imgType = {
     galaxyIcon: require("@/assets/imgs/galaxy.png"),
     level_bg: require("@/assets/imgs/level_bg.png"),
     P_Centauri: require("@/assets/imgs/P_Centauri.png"),
-    timeline_of_level: require("@/assets/imgs/timeline_of_level.png")
+    star: require("@/assets/imgs/star.png"),
+    timeline_of_level: require("@/assets/imgs/timeline_of_level.png"),
+    transit: require("@/assets/imgs/transit.gif"),
+    radialvelocity: require("@/assets/imgs/radialvelocity.gif"),
+    gravitational_microlensin: require("@/assets/imgs/gravitational_microlensin.gif"),
+    direct_imaging: require("@/assets/imgs/direct-imaging.gif"),
+    gliese_667cc: require("@/assets/imgs/gliese_667cc.png"),
 };
 
 export default imgs;
